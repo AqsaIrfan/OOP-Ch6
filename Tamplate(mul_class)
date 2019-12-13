@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+//FUNCTION FOR ANY DATA TYPE OF PARAMETERS
+template <class t, class u,class v,class w> 
+//reason for use multiple class:
+//1st(a) varible change for 2nd(b) ,2nd(b) change for 3rd(c),and so on
+t add(t a,u b,v c,w d){
+	return a+b+c+d;
+}
+main(){
+	cout<<add(12,15,55.4,45);
+	cout<<endl;
+}
