@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+
+	//function OVERLOADING(multiple function with same name differnt parameters)
+	int add( int a,int b){ 
+		cout<<"Function with two parameters \n";
+		return a+b;
+		}
+	int add( int a,int b,int c){ 
+		cout<<"Function with three parameters \n";
+		return a+b+c;
+		}
+	int add( int a,int b,int c,int d){ 
+		cout<<"Function with four parameters \n";
+		return a+b+c+d;
+		}
+		// for different data type of parameter list
+	int add( int a,float b){ 
+		
+		return a+b;
+		}
+	int add( float a,int b){ 
+		
+		return a+b;
+		}
+	
+
+main(){
+	cout<<add(12,12);
+	cout<<endl;
+	cout<<add(12,12,66);
+	cout<<endl;
+	cout<<add(12,12,55,33);
+	cout<<endl;
+	cout<<add(12,2.4);
+	cout<<endl;
+	cout<<add(1.2,12);
+	cout<<endl;
+	
+}
+
+
