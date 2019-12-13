@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int add( int ,int ); //function header
+main(){
+	cout<<add(12,12);
+}
+
+
+int add( int a,int b){ // function
+	return a+b;
+	}
