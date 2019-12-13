@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+//FUNCTION FOR ANY DATA TYPE OF PARAMETERS
+template <class t>
+t add(t a,t b,t c,t d){
+	return a+b+c+d;
+}
+main(){
+	cout<<add(12,15,55);
+	cout<<endl;
+}
